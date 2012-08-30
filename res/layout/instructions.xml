@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ImageViewHTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/howtoplay" >
+    </ImageView>
+
+
+        <TextView
+            android:id="@+id/plain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="What&apos;s that Word? is a game similar to the Taboo card game."
+            android:textColor="#808080"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/fullInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="An even number of players from four to ten sit alternating around in a circle. Players take turns as the &apos;giver,&apos; who attempts to prompt his or her teammates to guess as many keywords as possible in the allotted time. However, each card also has &apos;taboo&apos; (forbidden) words listed which may not be spoken. Should the giver say one, a &apos;censor&apos; on the opposing team hits the buzzer and the giver must move on to the next word. For example, the giver might have to get his or her team to say &apos;baseball&apos; without saying &apos;sport,&apos; &apos;game,&apos; &apos;pastime,&apos; &apos;hitter,&apos; &apos;pitcher,&apos; or &apos;baseball&apos; itself. The giver may not say a part of a &apos;taboo&apos; word; for example, using &apos;base&apos; in &apos;baseball&apos; is taboo. The giver may only use speech to prompt his or her teammates; gestures, sounds (e.g. barking), or drawings are not allowed. Singing is permitted, provided the singer is singing words rather than humming or whistling a tune. The giver&apos;s hints may not rhyme with a taboo word, or be an abbreviation of a taboo word."
+            android:textColor="#808080"
+            android:textSize="13sp" />
+     
+
+
+</LinearLayout>

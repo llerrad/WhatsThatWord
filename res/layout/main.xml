@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <ImageView
+                android:id="@+id/ImageViewLogo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logo" >
+            </ImageView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/ImageViewStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onStartClick"
+                    android:src="@drawable/start_selector" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/ImageViewInstructions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onInstructionsClick"
+                    android:src="@drawable/instructions_selector" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/ImageViewAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onAboutClick"
+                    android:src="@drawable/about_selector">
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/ImageViewExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="onExitClick"
+                    android:src="@drawable/exit_selector" >
+                </ImageView>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/fortune_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+ android:gravity="center_horizontal|center_vertical"
+                android:text="@string/url"
+                android:textColor="#000080"
+                android:textSize="16dp" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
